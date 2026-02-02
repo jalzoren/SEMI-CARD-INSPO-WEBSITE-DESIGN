@@ -116,12 +116,7 @@ export default function App() {
     <>
       {audioUnlocked && <BackgroundMusic />}
       <Background />
-       <a
-  href="https://x.com/cara_meow26"
-  target="_blank"
-  rel="noopener noreferrer"
-  alt="Link to gif!Credits to Cara_meow26 on X!"
->
+  
       <div className="app-container min-h-screen flex items-center justify-center text-white p-4 sm:p-8 relative z-10">
        
         <div className="max-w-[500px] w-full bg-black/20 backdrop-blur-sm rounded-lg p-4 sm:p-6 border border-white/10">
@@ -274,7 +269,7 @@ export default function App() {
           </div>
         </div>
       </div>
-       </a>
+     
     </>
   );
 }
