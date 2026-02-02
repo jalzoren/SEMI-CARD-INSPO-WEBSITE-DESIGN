@@ -13,9 +13,9 @@ body {
   min-height: 100vh;
 }
 
-.app-container {
+.app-container p{
   font-family: 'DotGothic16', monospace;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* VHS EFFECT STYLES */

@@ -124,7 +124,7 @@ export default function App() {
 >
       <div className="app-container min-h-screen flex items-center justify-center text-white p-4 sm:p-8 relative z-10">
        
-        <div className="max-w-[500px] w-full bg-black/50 backdrop-blur-sm rounded-lg p-4 sm:p-6 border border-white/10">
+        <div className="max-w-[500px] w-full bg-black/20 backdrop-blur-sm rounded-lg p-4 sm:p-6 border border-white/10">
           <div className="text-center mb-4 text-xs sm:text-sm text-gray-400"></div>
 
           <div className="text-center mb-4 sm:mb-6">
@@ -154,10 +154,11 @@ export default function App() {
                 <span className="italic" style={{ color: "#B71C1C" }}>
                   J
                 </span>
-                <span>A</span>
-                <span className="underline" style={{ color: "#B71C1C" }}>
-                  M
+                <span className="font-extrabold" style={{ color: "#B71C1C" }}>
+                  P
                 </span>
+                </span>
+                {/* 
                 <span>E</span>
                 <span className="font-extrabold">S</span>
               </span>
@@ -169,6 +170,7 @@ export default function App() {
               <br />
               <span className="italic text-xs sm:text-sm">filo</span>
               <span className="font-bold ml-1 text-xs sm:text-sm">(+63)</span>
+              */}
             </p>
 
             <p className="mt-4">
@@ -176,9 +178,12 @@ export default function App() {
               <span className="font-bold italic" style={{ color: "#B71C1C" }}>
                 J
               </span>
+              
               <span className="font-bold" style={{ color: "#B71C1C" }}>
-                A
+                P
               </span>
+
+              {/* 
               <span
                 className="font-bold underline"
                 style={{ color: "#B71C1C" }}
@@ -202,8 +207,8 @@ export default function App() {
               . Male, Adult.{" "}
               <span className="font-bold" style={{ color: "#CD0000" }}>
                 He/Him/His
-              </span>
-            </p>
+              </span>*/}
+            </p> 
 
             <p className="mt-3">
               I'm a{" "}
@@ -238,7 +243,7 @@ export default function App() {
               <span className="font-bold" style={{ color: "#CD0000" }}>
                 mood
               </span>
-              . That's all, really.
+              . 
             </p>
           </div>
 
