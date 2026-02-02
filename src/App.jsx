@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import jayGif from "./assets/won.gif";
+import jayGif from "./assets/won2.gif";
 
 export default function App() {
   const [showMessaging, setShowMessaging] = useState(false);
